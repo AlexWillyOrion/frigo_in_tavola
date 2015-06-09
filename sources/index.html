@@ -1,0 +1,109 @@
+<html manifest="cache.manifest">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="apple-touch-fullscreen" content="yes"/>
+		
+		
+		<title>Frigo in tavola</title>
+		<link rel="stylesheet" href="reset.css"/>
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="apple-touch-icon" href="../icona_app_128.png">
+		
+		
+		<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="../splash.png">
+		<link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		
+		<script src="jquery.js"></script>
+		<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script src="jquery.touchwipe.js"></script>
+		<script src="../jquery.simpleFilePreview.js"></script>
+		
+	</head>
+	<body>
+	
+	
+		<div style="display:none;">
+		   <img src="ingredienti/w_broccoli.png" width="1" height="1"/>
+		   <img src="ingredienti/w_carota.png" width="1" height="1"/>
+		   <img src="ingredienti/w_carne.png" width="1" height="1"/>
+		   <img src="ingredienti/w_formaggio.png" width="1" height="1"/>
+		   <img src="ingredienti/w_grano.png" width="1" height="1"/>
+		   <img src="ingredienti/w_pane.png" width="1" height="1"/>
+		   <img src="ingredienti/w_pepe.png" width="1" height="1"/>
+		   <img src="ingredienti/w_pesce.png" width="1" height="1"/>
+		   <img src="ingredienti/w_uovo.png" width="1" height="1"/>
+		</div>
+		<div id="menu">
+			<div class="btn-menu"></div> 
+			<div class="clear"></div>
+			<!--
+<div id="profilo">
+				<div class="foto"></div>
+				<div class="nome">Alessandro Manno</div>
+			</div>
+-->
+			<ul>
+				<!--
+				<li style="display:none;" data-cont="logga">Login</li>
+				<li data-cont="profilo">Profilo</li>
+				-->
+				<li data-cont="ingredienti" class="sel">Trova ricetta</li>
+				<li data-cont="categorie">Categorie</li>
+				<!-- <li data-cont="preferiti">Preferiti</li> -->
+				<!--
+<li data-cont="lingua" >
+					<div class="left"> Cambia Lingua</div> <div class="icon-down left"></div>
+					<div class="clear"></div>
+				</li>
+				<li class="tend_ling">
+					<ul>
+						<li data-cont="ita" class="sel">Italiano</li>
+						<li data-cont="ing">Inglese</li>
+					</ul>
+				</li>
+-->
+				<!-- <li data-cont="esci">Esci</li> -->
+				
+				
+			</ul>
+		</div>
+		<div id="splash"></div>
+		<div id="mode"> Per favore utilizza questa app solo in portrait.</div>
+		<div id="loader">
+			<div class="windows8">
+			<div class="wBall" id="wBall_1">
+			<div class="wInnerBall">
+			</div>
+			</div>
+			<div class="wBall" id="wBall_2">
+			<div class="wInnerBall">
+			</div>
+			</div>
+			<div class="wBall" id="wBall_3">
+			<div class="wInnerBall">
+			</div>
+			</div>
+			<div class="wBall" id="wBall_4">
+			<div class="wInnerBall">
+			</div>
+			</div>
+			<div class="wBall" id="wBall_5">
+			<div class="wInnerBall">
+			</div>
+			</div>
+			</div>
+		</div>
+		<div id="header">
+			<div class="btn-menu"></div> 
+		</div>
+		<div id="content">
+			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+		</div>
+		<script src="script.js?rand=699"></script>
+	</body>
+</html>
